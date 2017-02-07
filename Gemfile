@@ -5,6 +5,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
@@ -21,6 +22,8 @@ group :development, :test do
 end
 group :development do
   gem 'web-console', '~> 2.0'
-  gem 'spring'
+  gem 'spring', 
+  group: :development
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 end
 
