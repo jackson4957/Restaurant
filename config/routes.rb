@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
   root 'home#index'
   get 'home/about'
+  get 'home/menu'
+  get 'home/giftcards'
+  get 'home/desert'
+  get 'home/snack'
+  get 'home/shoppingcart'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
